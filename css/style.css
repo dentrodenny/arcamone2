@@ -1,0 +1,125 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+h1{
+  color: #0f70b7;
+  margin-top: 15%;
+}
+/*em sta per elemento base, materialize il suo elemento base è 14cm, quindi 2em è 28cm. Si usa em poichè i cellulari o i pc o i tablet hanno dimensioni diverse e l'em si adatta rendendo tutto responsive*/
+.header-subtitle{
+  margin-top:10%;
+  font-size: 2em;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #fff;
+}
+
+.btn-large{
+  background-color: #0f70b7;
+}
+
+nav .brand-logo {
+  font-family: 'Satisfy', cursive;
+}
+
+.nav-wrapper{
+  background-color: #0f70b7;
+  padding: 0 50px;
+
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #fff;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.section-intro{
+  height: 100%;
+  width:100%;
+}
+
+  .btn-registrazione{
+    width:100%;
+  }
+
+  .btn-ospita{
+    width:100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .nav-wrapper{
+    background-color: #0f70b7;
+    padding: 0 10px;
+
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .nav-wrapper{
+    background-color: #0f70b7;
+    padding: 0 10px;
+
+  }
+}
+
+
+.col-servizio{
+  margin-top:60px;
+  margin-bottom: 100px;
+}
+
+#mce-EMAIL{
+  background-color: white;
+
+}
+
+.icon-block {
+  padding: 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.section-registrazione{
+  width:100%;
+  height:100%;
+}
+
+#hover-effect:hover{
+	background-color:#0f70b7;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #0f70b7;
+}
